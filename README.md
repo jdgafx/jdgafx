@@ -19,11 +19,11 @@ I'm a collaborative AI Systems Engineer with extensive experience in building in
 
 ## 🏆 Featured Projects
 
-### 🤖 AI Agent Development & Automation
+### 🤖 AI Automation & Agent Systems
 
 **[Browser Automation Framework](https://github.com/jdgafx/browser-use-desktop-automation-acra)** - *Complete AI-powered browser automation with natural language control*
-- Built desktop application with Electron + Python backend
-- Integrated DeepSeek, OpenAI, Anthropic, and Google Gemini models
+- Desktop application with Electron + Python backend
+- Multi-LLM support (DeepSeek, OpenAI, Anthropic, Google Gemini)
 - Chrome Debug Protocol integration for direct browser control
 - Cross-platform support (Windows, macOS, Linux)
 
@@ -32,23 +32,23 @@ I'm a collaborative AI Systems Engineer with extensive experience in building in
 - Automated CTF challenge solving and malware analysis
 - Advanced AI-assisted security research capabilities
 
-**[Multi-Agent Orchestration](https://github.com/jdgafx/swarm)** - *Lightweight multi-agent coordination framework*
+**[Multi-Agent Orchestration Framework](https://github.com/jdgafx/swarm)** - *Lightweight multi-agent coordination system*
 - Managed by OpenAI Solution team
 - Real-world workflow automation solutions
 - Distributed AI task coordination
 
-### 📊 Algorithmic Trading Systems
+### 📊 Algorithmic Trading & Financial Systems
 
-**[Advanced Trading Platform](https://github.com/jdgafx/moondev-algotrade2)** - *Comprehensive algorithmic trading system*
+**[Advanced Algorithmic Trading Platform](https://github.com/jdgafx/advanced-algo-trading-platform)** - *Comprehensive algorithmic trading system*
 - 12+ trading strategies (Turtle, Mean Reversion, RSI, VWAP, Market Making)
 - Live trading infrastructure with multiple exchange integrations
 - Backtesting framework with performance analytics
 - Solana sniper bots and DeFi automation tools
 
 **[OpenTrader Crypto Platform](https://github.com/jdgafx/opentrader)** - *Open-source crypto trading bot*
-- DCA & GRID trading strategies
-- Modern web UI for strategy management
-- Multi-exchange support with risk management
+- DCA & GRID trading strategies with modern web UI
+- Multi-exchange support with comprehensive risk management
+- Production deployment capabilities
 
 ### 🌐 Full-Stack Web Applications
 
