@@ -24,15 +24,23 @@ FastAPI service integrating a trading application with the Hyperliquid DEX. Incl
 
 **Evidence:** [source and API documentation](https://github.com/jdgafx/open-algotrade-api)
 
-### Production browser automation
+## Private production case studies
 
-Designed and operated supervised browser-agent systems for high-volume, multi-step workflows across heterogeneous web applications. The systems combine LLM scoring, structured-document generation, browser control, email confirmation, failure recovery, and real-time observability.
+### AI website generation and quality-control pipeline
 
-**Outcome:** processed 4,000+ records, generated 2,400+ tailored document packages, and completed nearly 1,000 supervised workflows, eliminating an estimated 800+ hours of manual work.
+Built a resumable generation system that transforms structured lead data into fact-safe site contracts, rendered websites, deterministic checks, real-browser visual review, bounded repair, deployment, and auditable receipts. Individual failures remain isolated so a batch can continue safely.
 
-**Source:** private because it contains account-specific integrations and operational automation.
+### Human-reviewed operations assistant
 
-## Client delivery
+Built an agentic filing workflow across email, spreadsheets, and cloud storage. It reconciles prior submissions, collects and deduplicates receipts, prepares the next filing package, and creates a reviewable draft while keeping final sending under human control.
+
+### Self-hosted meeting intelligence
+
+Designed an ephemeral meeting-bot control plane for Meet, Teams, and Zoom with per-participant transcription, structured summaries, protected storage, and post-processing audio deletion. The architecture targets a substantial per-hour cost reduction versus managed transcription platforms.
+
+These production systems remain private because they include customer workflows, account integrations, deployment topology, and sensitive operational data. Sanitized architecture walkthroughs and redacted acceptance evidence are available where appropriate.
+
+## Additional client delivery
 
 - Built voice-agent workflows with knowledge-base grounding, calendar booking, transcript analysis, CRM updates, and lead alerts.
 - Automated a 256-image audit and 153-asset Webflow replacement workflow, reducing transferred media from 274 MB to 36 MB.
