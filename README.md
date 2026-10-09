@@ -10,7 +10,7 @@ I turn ambiguous business workflows into observable software: model orchestratio
 
 ### [Deployed AI application portfolio](https://github.com/jdgafx/JDGAFX_CG_GITHUB_PORTFOLIO_APPS)
 
-Ten independently deployed applications covering multi-agent research, document intelligence, code review, voice, data analysis, model comparison, content workflows, vision, and analytics. Built with React, TypeScript, serverless APIs, streaming interfaces, and multi-provider model routing.
+Thirteen independently deployed applications on live public data, covering multi-agent research, document intelligence, verified code review, streaming voice, data analysis, model comparison, content workflows, vision, analytics, browser automation, and LangGraph agents with checkpoint rewind, human-approved GitHub issue triage, and map-reduce summarisation. Built with React, TypeScript, serverless APIs, streaming interfaces, and anthropic/claude-haiku-5.5 through OpenRouter.
 
 **Owned:** application architecture, implementation, deployment, provider integration, and operational hardening.
 
