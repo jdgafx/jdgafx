@@ -24,6 +24,13 @@ FastAPI service integrating a trading application with the Hyperliquid DEX. Incl
 
 **Evidence:** [source and API documentation](https://github.com/jdgafx/open-algotrade-api)
 
+## Claude Code skills
+
+Agent skills I use daily, in [`skills/`](skills). Each is a folder with a `SKILL.md` (name, description, instructions) plus the scripts and reference notes it relies on.
+
+- **[cloud-browser-login](skills/cloud-browser-login)**: logs into my own accounts on any website from a Claude Code cloud session, using a real Chromium browser. It picks the safest route (site password, imported session, email code, or handing off to my own computer), asks once for exactly the secrets it needs, and records per-site lessons in `references/sites.md`.
+- **[autonomous-systems-audit](skills/autonomous-systems-audit)**: a read-only health audit of my self-driving agent harness, its hermetic test suite, knowledge graph and memory stores. It runs a telemetry probe (`scripts/audit_probe.py`) first and backs every finding with file and line citations.
+
 ## Private production case studies
 
 ### AI website generation and quality-control pipeline
