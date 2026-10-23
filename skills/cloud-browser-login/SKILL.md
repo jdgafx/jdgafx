@@ -98,3 +98,16 @@ For long jobs, or for repo tools that attach to a running browser (like meta.ai 
 Add or update the site's entry in `references/sites.md`: the login URL, the route that worked, the click path, the variable names, wizard quirks and blocked hosts. That file is why the next session won't have to ask another session how it was done. If the skill lives in a repo, commit the change so it travels.
 
 Then tell the user what was filled in and what's left for them (verification, payment). If they gave you a `<SITE>_SESSION`, remind them to log out of the site in their own browser. The cloud browser and its login vanish with this container.
+
+## Running on Claude, Codex and ChatGPT
+
+The scripts are plain Node + Playwright and run the same under any agent. Where the steps name a Claude Code tool, use the closest equivalent:
+
+| Step says | Claude Code | Codex / ChatGPT |
+| --- | --- | --- |
+| Send the user a screenshot | `SendUserFile` | Save it in the repo and give the path |
+| Ask a multiple-choice question | `AskUserQuestion` | Ask in plain text with numbered options |
+| Read an email code | Gmail connector | Any Gmail connector or app you have, otherwise ask the user for the code |
+| Add a permission rule | `update-config` skill | Codex approval settings in `~/.codex/config.toml` |
+
+Secrets are environment variables either way: Claude Code cloud environment settings, or your shell / Codex environment.

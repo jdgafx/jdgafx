@@ -1,0 +1,17 @@
+{"name":"golden-booker-v2",
+ "rules":[
+  {"re":"Mallard Court","say":"Hi there, yes, calling about the Mallard Court home."},
+  {"re":"pre-approved|lender","say":"Yep, we're pre-approved up to six hundred fifty thousand."},
+  {"re":"how long|been looking|house hunt","say":"Been looking about three months now."},
+  {"re":"must-have|beds, area|looking for in a home","say":"Four bedrooms, and we'd love to be in Beaverton for the schools."},
+  {"re":"another realtor|working with","say":"Nope, no other realtor."},
+  {"re":"first name","say":"Chris."},
+  {"re":"last name","say":"Gentile. G E N T I L E."},
+  {"re":"email","say":"you+dgbook2@example.com. That is c n j gentile plus d g book two, at gmail dot com."},
+  {"re":"calendar|schedule|set up|book a|call with the realtor","say":"Yes please, sometime tomorrow afternoon would be great."},
+  {"re":"\\bor\\b[^.]*(Pacific|PM|AM)|(Pacific|PM|AM)[^.]*\\bor\\b","say":"The first one works for me."},
+  {"re":"anything else","say":"No, that is everything, thanks so much.","optional":true},
+  {"re":"is that right|did I get|confirm","say":"Yes, that's right.","once":false}
+ ],
+ "fallback":"Sorry, could you say that again?",
+ "closing":["That's everything, thanks so much.","Bye!"]}

@@ -1,0 +1,11 @@
+{"name":"has-realtor-v2",
+ "rules":[
+  {"re":"Mallard Court","say":"Hi, yeah, I saw the listing for that house on Mallard Court."},
+  {"re":"pre-approved|lender","say":"Yes I'm pre-approved actually, up to seven hundred thousand."},
+  {"re":"how long|been looking|house hunt","say":"About six months now."},
+  {"re":"must-have|beds, area|looking for","say":"Four bedrooms, good schools, ideally Tigard or Beaverton."},
+  {"re":"another realtor|working with","say":"Well, I should say I'm already working with a realtor, Sam Rivera at another brokerage."},
+  {"re":"anything else|is there anything","say":"No that's all, thanks anyway.","optional":true}
+ ],
+ "fallback":"Sorry, what was that?",
+ "closing":["No that's all, thanks anyway.","Bye now."]}

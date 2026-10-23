@@ -24,12 +24,17 @@ FastAPI service integrating a trading application with the Hyperliquid DEX. Incl
 
 **Evidence:** [source and API documentation](https://github.com/jdgafx/open-algotrade-api)
 
-## Claude Code skills
+## Agent skills
 
-Agent skills I use daily, in [`skills/`](skills). Each is a folder with a `SKILL.md` (name, description, instructions) plus the scripts and reference notes it relies on.
+Seven skills I use daily, in [`skills/`](skills). Each is a folder with a `SKILL.md` plus the scripts and notes it relies on, and each works in Claude Code, Codex and the ChatGPT desktop app. [Install instructions for both](skills/README.md#install), or run `skills/install.sh`.
 
-- **[cloud-browser-login](skills/cloud-browser-login)**: logs into my own accounts on any website from a Claude Code cloud session, using a real Chromium browser. It picks the safest route (site password, imported session, email code, or handing off to my own computer), asks once for exactly the secrets it needs, and records per-site lessons in `references/sites.md`.
-- **[autonomous-systems-audit](skills/autonomous-systems-audit)**: a read-only health audit of my self-driving agent harness, its hermetic test suite, knowledge graph and memory stores. It runs a telemetry probe (`scripts/audit_probe.py`) first and backs every finding with file and line citations.
+- **[ship](skills/ship)**: a closed-loop acceptance gate. It builds the app, has a fresh verifier use it for real, fixes from the repro and re-verifies, until it passes or provably stops converging.
+- **[cloud-browser-login](skills/cloud-browser-login)**: logs into my own accounts on any website from a cloud session, in a real Chromium browser. It picks the safest login route, asks once for exactly the secrets it needs, and records per-site lessons.
+- **[retell-voice-agent](skills/retell-voice-agent)**: design, build, audit and verify Retell AI voice and SMS agents, with a three-layer verification method and a catalogue of pitfalls found on real calls.
+- **[deepgram-voice-agent](skills/deepgram-voice-agent)**: build and gauntlet-test Deepgram Voice Agent API agents against persona scenarios, checking the real side effects (bookings, emails) rather than the chat.
+- **[dialora](skills/dialora)**: build, configure and verify Dialora.ai voice agents end to end, from prompts and knowledge bases to tools, phone numbers and agency sub-accounts.
+- **[autonomous-systems-audit](skills/autonomous-systems-audit)**: a read-only health audit of my self-driving agent harness, its test suite, knowledge graph and memory stores, backed by a telemetry probe and file and line citations.
+- **[pme-cdp](skills/pme-cdp)**: drives an already-logged-in Chrome over CDP instead of a fresh browser that gets bot-blocked and logged out.
 
 ## Private production case studies
 

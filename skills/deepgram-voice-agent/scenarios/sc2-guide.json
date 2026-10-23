@@ -1,0 +1,59 @@
+{
+ "name": "guide-path-v4-pivot",
+ "rules": [
+  {
+   "re": "Mallard Court",
+   "say": "Hi, yes, I'm calling about the Mallard Court house."
+  },
+  {
+   "re": "know about the home|know about the house|questions about",
+   "say": "What's the asking price, actually?"
+  },
+  {
+   "re": "asking|price|\\$|thousand|million",
+   "say": "Sure, go ahead."
+  },
+  {
+   "re": "pre-approved|lender",
+   "say": "No, not pre-approved yet, we're just starting to look."
+  },
+  {
+   "re": "how long|been looking|house hunt",
+   "say": "Only a couple of weeks really."
+  },
+  {
+   "re": "must-have|beds, area|looking for in a home",
+   "say": "Three bedrooms minimum and a yard for the dog."
+  },
+  {
+   "re": "another realtor|working with",
+   "say": "No, no other realtor, you're the first call."
+  },
+  {
+   "re": "first name",
+   "say": "Chris."
+  },
+  {
+   "re": "last name",
+   "say": "Gentile. G E N T I L E."
+  },
+  {
+   "re": "guide",
+   "say": "Yes please, send it over."
+  },
+  {
+   "re": "email",
+   "say": "you+dg10@example.com. That is c n j gentile plus d g ten, at gmail dot com."
+  },
+  {
+   "re": "is that right|did I get|correct|right\\?",
+   "say": "Yes, that's right.",
+   "once": false
+  }
+ ],
+ "fallback": "Sorry, could you say that again?",
+ "closing": [
+  "That's everything, thank you.",
+  "Goodbye."
+ ]
+}

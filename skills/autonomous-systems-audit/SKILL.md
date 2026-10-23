@@ -73,3 +73,7 @@ Always structure the final audit report into these 4 sections:
    - Same 4-part structure backed by `audit_probe.py` metrics.
 4. **Ready-to-Paste Prompt for the Opus Supervisor (`w1D:pM`):**
    - Self-contained markdown block that Chris can paste directly into `w1D:pM` asking Opus to verify each finding, state agreement/disagreement, and queue approved fixes to `housekeeping` (`w1F:p1`) with `--done` and `--not` contracts.
+
+## Running on Claude, Codex and ChatGPT
+
+Machine-specific: it audits one CC-MAESTRO checkout and the paths are absolute. Step 1 runs the probe from `~/.agents/skills/`, which is where Codex and the ChatGPT desktop app read skills. Under Claude Code the same probe lives at `~/.claude/skills/autonomous-systems-audit/scripts/audit_probe.py`; run that path instead. Everything else (the read-only rules, the probe, the report shape) is the same on both.
